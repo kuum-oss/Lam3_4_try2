@@ -1,0 +1,57 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="Lam3_4.MainWindow"
+        Title="Лабораторна робота 3-4"
+        Width="800" Height="450"
+        Background="White"
+        Foreground="Black">
+    
+    <DockPanel>
+        <!-- 1. Головне меню (MenuStrip) -->
+        <Menu DockPanel.Dock="Top" Background="#F0F0F0">
+            <MenuItem Header="Файл">
+                <MenuItem Header="Об’єкт" Click="Objekt_Click" />
+                <Separator />
+                <MenuItem Header="Вихід" Click="Exit_Click" />
+            </MenuItem>
+            <MenuItem Header="Довідка">
+                <MenuItem Header="Про програму" Click="About_Click" />
+            </MenuItem>
+        </Menu>
+
+        <!-- 4. Панель інструментів (ToolStrip) -->
+        <Border DockPanel.Dock="Top" Background="#E0E0E0" BorderBrush="Gray" BorderThickness="0,0,0,1">
+            <StackPanel Orientation="Horizontal" Spacing="2" Margin="2">
+                <Button Content="Undo" Click="Undo_Click" ToolTip.Tip="Відмінити останню дію" Padding="5,2" />
+                <Button Content="New" Click="New_Click" ToolTip.Tip="Створити новий об'єкт" Padding="5,2" />
+                <Button Content="Edit" Click="Edit_Click" ToolTip.Tip="Редагувати" Padding="5,2" />
+                <Button Content="Save" Click="Save_Click" ToolTip.Tip="Зберегти" Padding="5,2" />
+                <Button Content="Remove" Click="Remove_Click" ToolTip.Tip="Видалити" Padding="5,2" />
+            </StackPanel>
+        </Border>
+
+        <!-- 6. Рядок стану (StatusStrip) -->
+        <Border DockPanel.Dock="Bottom" Background="#F0F0F0" BorderBrush="Gray" BorderThickness="0,1,0,0" Padding="5">
+            <TextBlock x:Name="StatusTime" Text="Час: --:--:--" Foreground="Black" />
+        </Border>
+
+        <!-- Головна область з контекстним меню -->
+        <Grid Background="White">
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="10">
+                <TextBlock Text="Лабораторна робота №3-4" FontSize="24" FontWeight="Bold" Foreground="Black" HorizontalAlignment="Center"/>
+                <TextBlock Text="Використовуйте меню або панель інструментів." Foreground="Gray" HorizontalAlignment="Center"/>
+                <TextBlock Text="(Права кнопка миші — контекстне меню)" FontSize="12" Foreground="Silver" HorizontalAlignment="Center"/>
+            </StackPanel>
+            
+            <!-- 5. Контекстне меню (ContextMenuStrip) -->
+            <Grid.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Undo" Click="Undo_Click" />
+                    <Separator />
+                    <MenuItem Header="Об’єкт" Click="Objekt_Click" />
+                    <MenuItem Header="Вихід" Click="Exit_Click" />
+                </ContextMenu>
+            </Grid.ContextMenu>
+        </Grid>
+    </DockPanel>
+</Window>

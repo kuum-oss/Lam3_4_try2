@@ -12,3 +12,4 @@
 /Users/dimagordeev/Солнышко/Lam3_4/Lam3_4/obj/Debug/net8.0-windows/Lam3_4.pdb
 /Users/dimagordeev/Солнышко/Lam3_4/Lam3_4/obj/Debug/net8.0-windows/Lam3_4.genruntimeconfig.cache
 /Users/dimagordeev/Солнышко/Lam3_4/Lam3_4/obj/Debug/net8.0-windows/ref/Lam3_4.dll
+/Users/dimagordeev/Солнышко/Lam3_4/Lam3_4/obj/Debug/net8.0-windows/Lam3_4.sourcelink.json

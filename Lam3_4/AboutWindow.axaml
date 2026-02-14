@@ -1,0 +1,18 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="Lam3_4.AboutWindow"
+        Title="Про програму"
+        Width="400" Height="250"
+        WindowStartupLocation="CenterOwner"
+        CanResize="False"
+        Background="White">
+    <StackPanel Margin="20" Spacing="10">
+        <TextBlock Text="Студентський проект" FontWeight="Bold" FontSize="18" Foreground="Black" />
+        <TextBlock Text="Версія 1.0.0" Foreground="Black" />
+        <TextBlock Text="@РДЕУ, 2008" Foreground="Black" />
+        <TextBlock Text="Розробник: Ваше ім’я" Foreground="Black" />
+        <Separator Background="LightGray" />
+        <TextBlock Text="Опис: Лабораторна робота з GUI (Avalonia Edition для macOS)" Foreground="DarkSlateGray" TextWrapping="Wrap" />
+        <Button Content="OK" HorizontalAlignment="Right" Click="Close_Click" Margin="0,20,0,0" Width="60" />
+    </StackPanel>
+</Window>
