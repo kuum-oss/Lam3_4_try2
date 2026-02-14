@@ -1,0 +1,9 @@
+[Ob]j/
+[Bb]in/
+.vs/
+.vscode/
+.idea/
+*.user
+*.userosscache
+*.sln.docstates
+.DS_Store
