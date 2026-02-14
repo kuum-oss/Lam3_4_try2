@@ -1,0 +1,14 @@
+/Users/dimagordeev/Солнышко/Lam3_4/Lam3_4/obj/Debug/net10.0-windows/Lam3_4.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dimagordeev/Солнышко/Lam3_4/Lam3_4/obj/Debug/net10.0-windows/Lam3_4.AssemblyInfoInputs.cache
+/Users/dimagordeev/Солнышко/Lam3_4/Lam3_4/obj/Debug/net10.0-windows/Lam3_4.AssemblyInfo.cs
+/Users/dimagordeev/Солнышко/Lam3_4/Lam3_4/obj/Debug/net10.0-windows/Lam3_4.csproj.CoreCompileInputs.cache
+/Users/dimagordeev/Солнышко/Lam3_4/Lam3_4/bin/Debug/net10.0-windows/Lam3_4
+/Users/dimagordeev/Солнышко/Lam3_4/Lam3_4/bin/Debug/net10.0-windows/Lam3_4.deps.json
+/Users/dimagordeev/Солнышко/Lam3_4/Lam3_4/bin/Debug/net10.0-windows/Lam3_4.runtimeconfig.json
+/Users/dimagordeev/Солнышко/Lam3_4/Lam3_4/bin/Debug/net10.0-windows/Lam3_4.dll
+/Users/dimagordeev/Солнышко/Lam3_4/Lam3_4/bin/Debug/net10.0-windows/Lam3_4.pdb
+/Users/dimagordeev/Солнышко/Lam3_4/Lam3_4/obj/Debug/net10.0-windows/Lam3_4.dll
+/Users/dimagordeev/Солнышко/Lam3_4/Lam3_4/obj/Debug/net10.0-windows/refint/Lam3_4.dll
+/Users/dimagordeev/Солнышко/Lam3_4/Lam3_4/obj/Debug/net10.0-windows/Lam3_4.pdb
+/Users/dimagordeev/Солнышко/Lam3_4/Lam3_4/obj/Debug/net10.0-windows/Lam3_4.genruntimeconfig.cache
+/Users/dimagordeev/Солнышко/Lam3_4/Lam3_4/obj/Debug/net10.0-windows/ref/Lam3_4.dll

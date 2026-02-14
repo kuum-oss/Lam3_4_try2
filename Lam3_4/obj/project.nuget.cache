@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "I7A0S+ER5w8=",
+  "success": true,
+  "projectFilePath": "/Users/dimagordeev/Солнышко/Lam3_4/Lam3_4/Lam3_4.csproj",
+  "expectedPackageFiles": [
+    "/Users/dimagordeev/.nuget/packages/microsoft.netcore.app.ref/8.0.23/microsoft.netcore.app.ref.8.0.23.nupkg.sha512",
+    "/Users/dimagordeev/.nuget/packages/microsoft.windowsdesktop.app.ref/8.0.23/microsoft.windowsdesktop.app.ref.8.0.23.nupkg.sha512",
+    "/Users/dimagordeev/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.23/microsoft.aspnetcore.app.ref.8.0.23.nupkg.sha512",
+    "/Users/dimagordeev/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.23/microsoft.netcore.app.host.osx-arm64.8.0.23.nupkg.sha512"
+  ],
+  "logs": []
+}
